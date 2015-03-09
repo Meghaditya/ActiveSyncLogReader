@@ -1,0 +1,79 @@
+
+					<ApplicationData>
+						<TimeZone xmlns="Calendar:">qP3//ygAVQBUAEMAKwAxADAAOgAwADAAKQAgAEMAYQBuAGIAZQByAHIAYQAsACAATQBlAGwAYgBvAHUAcgBuAGUALAAAAAQAAAABAAMAAAAAAAAAAAAAACgAVQBUAEMAKwAxADAAOgAwADAAKQAgAEMAYQBuAGIAZQByAHIAYQAsACAATQBlAGwAYgBvAHUAcgBuAGUALAAAAAoAAAABAAIAAAAAAAAAxP///w==</TimeZone>
+						<DtStamp xmlns="Calendar:">20150104T222537Z</DtStamp>
+						<StartTime xmlns="Calendar:">20150407T223000Z</StartTime>
+						<Subject xmlns="Calendar:" bytes="25"/>
+						<UID xmlns="Calendar:">040000008200E00074C5B7101A82E0080000000070899390C928D0010000000000000000100000009F5B07D41DC8D342B8DC5F3AD000010A</UID>
+						<OrganizerName xmlns="Calendar:" bytes="14"/>
+						<OrganizerEmail xmlns="Calendar:" bytes="25"/>
+						<Attendees xmlns="Calendar:">
+							<Attendee>
+								<Email bytes="32"/>
+								<Name bytes="24"/>
+								<AttendeeStatus>0</AttendeeStatus>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeStatus>3</AttendeeStatus>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeStatus>3</AttendeeStatus>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="28"/>
+								<Name bytes="14"/>
+								<AttendeeStatus>3</AttendeeStatus>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeStatus>3</AttendeeStatus>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeStatus>3</AttendeeStatus>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="21"/>
+								<Name bytes="10"/>
+								<AttendeeStatus>3</AttendeeStatus>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+						</Attendees>
+						<Location xmlns="Calendar:" bytes="28"/>
+						<EndTime xmlns="Calendar:">20150408T000000Z</EndTime>
+						<Recurrence xmlns="Calendar:">
+							<Type>1</Type>
+							<Interval>1</Interval>
+							<Until>20150929T223000Z</Until>
+							<DayOfWeek>8</DayOfWeek>
+							<FirstDayOfWeek>1</FirstDayOfWeek>
+						</Recurrence>
+						<Body=552 bytes/>
+						<Sensitivity xmlns="Calendar:">0</Sensitivity>
+						<BusyStatus xmlns="Calendar:">2</BusyStatus>
+						<AllDayEvent xmlns="Calendar:">0</AllDayEvent>
+						<Reminder xmlns="Calendar:">15</Reminder>
+						<Exceptions xmlns="Calendar:">
+							<Exception>
+								<Deleted>1</Deleted>
+								<ExceptionStartTime>20150519T223000Z</ExceptionStartTime>
+							</Exception>
+						</Exceptions>
+						<MeetingStatus xmlns="Calendar:">1</MeetingStatus>
+						<NativeBodyType xmlns="AirSyncBase:">3</NativeBodyType>
+						<DisallowNewTimeProposal xmlns="Calendar:">0</DisallowNewTimeProposal>
+						<ResponseRequested xmlns="Calendar:">1</ResponseRequested>
+						<ResponseType xmlns="Calendar:">1</ResponseType>
+					</ApplicationData>
