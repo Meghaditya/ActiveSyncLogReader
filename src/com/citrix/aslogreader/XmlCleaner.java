@@ -18,7 +18,7 @@ public class XmlCleaner extends FileModifier{
 	}
 
 	@Override
-	protected void performCoreLogic(BufferedReader br, PrintWriter pw) {
+	protected void performLogic(BufferedReader br, PrintWriter pw) {
 		String str;
 		
 		try {

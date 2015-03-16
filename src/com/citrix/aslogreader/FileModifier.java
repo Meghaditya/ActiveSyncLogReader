@@ -31,7 +31,7 @@ public abstract class FileModifier {
 			br = new BufferedReader(new InputStreamReader(fis));
 			pw = new PrintWriter(new OutputStreamWriter(fos));
 			
-			performCoreLogic(br, pw);
+			performLogic(br, pw);
 	
 		} catch (FileNotFoundException fEx) {
 			System.err.println("FileNotFound :" + " " + fEx.getMessage());
@@ -56,6 +56,6 @@ public abstract class FileModifier {
 		return mFileContent.toString();
 	}
 	
-	protected abstract void performCoreLogic(BufferedReader br, PrintWriter pw);
+	protected abstract void performLogic(BufferedReader br, PrintWriter pw);
 	protected abstract String getOutFileName();
 }

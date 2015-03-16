@@ -24,7 +24,7 @@ public class KeyFinder extends FileModifier{
 		mUniqueKeyList = new LinkedHashSet<String>();
 	}
 	
-	protected void performCoreLogic(BufferedReader br, PrintWriter pw) {
+	protected void performLogic(BufferedReader br, PrintWriter pw) {
 		String str;
 		Matcher matcher;
 
