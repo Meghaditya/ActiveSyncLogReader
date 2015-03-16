@@ -1,4 +1,42 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<Sync xmlns="AirSync:">
+	<Collections>
+		<Collection>
+			<SyncKey>2049434149</SyncKey>
+			<CollectionId>1</CollectionId>
+			<Status>1</Status>
+			<MoreAvailable/>
+			<Commands>
+				<Add>
+					<ServerId>1:206</ServerId>
+					<ApplicationData>
+						<TimeZone xmlns="Calendar:">qP3//ygAVQBUAEMAKwAxADAAOgAwADAAKQAgAEMAYQBuAGIAZQByAHIAYQAsACAATQBlAGwAYgBvAHUAcgBuAGUALAAAAAQAAAABAAMAAAAAAAAAAAAAACgAVQBUAEMAKwAxADAAOgAwADAAKQAgAEMAYQBuAGIAZQByAHIAYQAsACAATQBlAGwAYgBvAHUAcgBuAGUALAAAAAoAAAABAAIAAAAAAAAAxP///w==</TimeZone>
+						<DtStamp xmlns="Calendar:">20150127T031319Z</DtStamp>
+						<StartTime xmlns="Calendar:">20150424T140000Z</StartTime>
+						<Subject xmlns="Calendar:" bytes="9"/>
+						<UID xmlns="Calendar:">040000008200E00074C5B7101A82E0080000000030F3B05CBD91CE0100000000000000001000000097A1439B93D4694C8029766C1E2A4BD9</UID>
+						<OrganizerName xmlns="Calendar:" bytes="14"/>
+						<OrganizerEmail xmlns="Calendar:" bytes="25"/>
+						<Location xmlns="Calendar:" bytes="9"/>
+						<EndTime xmlns="Calendar:">20150425T140000Z</EndTime>
+						<Body=0 bytes/>
+						<Categories xmlns="Calendar:">
+							<Category bytes="8"/>
+							<Category bytes="7"/>
+						</Categories>
+						<Sensitivity xmlns="Calendar:">0</Sensitivity>
+						<BusyStatus xmlns="Calendar:">3</BusyStatus>
+						<AllDayEvent xmlns="Calendar:">1</AllDayEvent>
+						<Reminder xmlns="Calendar:"></Reminder>
+						<MeetingStatus xmlns="Calendar:">0</MeetingStatus>
+						<NativeBodyType xmlns="AirSyncBase:">1</NativeBodyType>
+						<DisallowNewTimeProposal xmlns="Calendar:">0</DisallowNewTimeProposal>
+						<ResponseRequested xmlns="Calendar:">1</ResponseRequested>
+						<ResponseType xmlns="Calendar:">0</ResponseType>
+					</ApplicationData>
+				</Add>
+				<Add>
+					<ServerId>1:207</ServerId>
 					<ApplicationData>
 						<TimeZone xmlns="Calendar:">qP3//ygAVQBUAEMAKwAxADAAOgAwADAAKQAgAEMAYQBuAGIAZQByAHIAYQAsACAATQBlAGwAYgBvAHUAcgBuAGUALAAAAAQAAAABAAMAAAAAAAAAAAAAACgAVQBUAEMAKwAxADAAOgAwADAAKQAgAEMAYQBuAGIAZQByAHIAYQAsACAATQBlAGwAYgBvAHUAcgBuAGUALAAAAAoAAAABAAIAAAAAAAAAxP///w==</TimeZone>
 						<DtStamp xmlns="Calendar:">20150104T222537Z</DtStamp>
@@ -77,3 +115,531 @@
 						<ResponseRequested xmlns="Calendar:">1</ResponseRequested>
 						<ResponseType xmlns="Calendar:">1</ResponseType>
 					</ApplicationData>
+				</Add>
+				<Add>
+					<ServerId>1:208</ServerId>
+					<ApplicationData>
+						<TimeZone xmlns="Calendar:">4AEAACgAVQBUAEMALQAwADgAOgAwADAAKQAgAFAAYQBjAGkAZgBpAGMAIABUAGkAbQBlACAAKABVAFMAIAAmACAAQwAAAAsAAAABAAIAAAAAAAAAAAAAACgAVQBUAEMALQAwADgAOgAwADAAKQAgAFAAYQBjAGkAZgBpAGMAIABUAGkAbQBlACAAKABVAFMAIAAmACAAQwAAAAMAAAACAAIAAAAAAAAAxP///w==</TimeZone>
+						<DtStamp xmlns="Calendar:">20141215T031352Z</DtStamp>
+						<StartTime xmlns="Calendar:">20100715T180000Z</StartTime>
+						<Subject xmlns="Calendar:" bytes="35"/>
+						<UID xmlns="Calendar:">040000008200E00074C5B7101A82E00800000000304DAEAD660CCB0100000000000000001000000017B76170D6427B4DB7A9BDA1B9B720B2</UID>
+						<OrganizerName xmlns="Calendar:" bytes="14"/>
+						<OrganizerEmail xmlns="Calendar:" bytes="25"/>
+						<Attendees xmlns="Calendar:">
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="26"/>
+								<Name bytes="15"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="28"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="28"/>
+								<Name bytes="17"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="21"/>
+								<Name bytes="10"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="30"/>
+								<Name bytes="19"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="28"/>
+								<Name bytes="17"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="30"/>
+								<Name bytes="19"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="26"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="28"/>
+								<Name bytes="17"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="21"/>
+								<Name bytes="10"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="21"/>
+								<Name bytes="10"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="20"/>
+								<Name bytes="9"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="31"/>
+								<Name bytes="20"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="20"/>
+								<Name bytes="19"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="30"/>
+								<Name bytes="19"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="28"/>
+								<Name bytes="17"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="10"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="20"/>
+								<Name bytes="9"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="19"/>
+								<Name bytes="8"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="26"/>
+								<Name bytes="15"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="30"/>
+								<Name bytes="19"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="21"/>
+								<Name bytes="10"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="21"/>
+								<Name bytes="10"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="20"/>
+								<Name bytes="9"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="20"/>
+								<Name bytes="9"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="18"/>
+								<Name bytes="17"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="13"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="20"/>
+								<Name bytes="9"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>1</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="26"/>
+								<Name bytes="15"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="11"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="25"/>
+								<Name bytes="14"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="12"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="32"/>
+								<Name bytes="21"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="28"/>
+								<Name bytes="17"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="17"/>
+								<Name bytes="6"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="37"/>
+								<Name bytes="28"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="27"/>
+								<Name bytes="16"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="24"/>
+								<Name bytes="21"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="21"/>
+								<Name bytes="10"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="21"/>
+								<Name bytes="10"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="26"/>
+								<Name bytes="15"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="22"/>
+								<Name bytes="11"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+							<Attendee>
+								<Email bytes="23"/>
+								<Name bytes="12"/>
+								<AttendeeType>2</AttendeeType>
+							</Attendee>
+						</Attendees>
+						<Location xmlns="Calendar:" bytes="9"/>
+						<EndTime xmlns="Calendar:">20100715T190000Z</EndTime>
+						<Recurrence xmlns="Calendar:">
+							<Type>3</Type>
+							<Interval>1</Interval>
+							<Until>20151224T190000Z</Until>
+							<WeekOfMonth>3</WeekOfMonth>
+							<DayOfWeek>16</DayOfWeek>
+							<CalendarType>1</CalendarType>
+						</Recurrence>
+						<Body=3012 bytes/>
+						<Sensitivity xmlns="Calendar:">0</Sensitivity>
+						<BusyStatus xmlns="Calendar:">1</BusyStatus>
+						<AllDayEvent xmlns="Calendar:">0</AllDayEvent>
+						<Reminder xmlns="Calendar:">15</Reminder>
+						<Exceptions xmlns="Calendar:">
+							<Exception>
+								<Deleted>1</Deleted>
+								<ExceptionStartTime>20141218T190000Z</ExceptionStartTime>
+							</Exception>
+							<Exception>
+								<Deleted>1</Deleted>
+								<ExceptionStartTime>20150115T190000Z</ExceptionStartTime>
+							</Exception>
+							<Exception>
+								<Deleted>1</Deleted>
+								<ExceptionStartTime>20150219T190000Z</ExceptionStartTime>
+							</Exception>
+							<Exception>
+								<Deleted>1</Deleted>
+								<ExceptionStartTime>20150521T180000Z</ExceptionStartTime>
+							</Exception>
+						</Exceptions>
+						<MeetingStatus xmlns="Calendar:">3</MeetingStatus>
+						<NativeBodyType xmlns="AirSyncBase:">3</NativeBodyType>
+						<DisallowNewTimeProposal xmlns="Calendar:">1</DisallowNewTimeProposal>
+						<ResponseRequested xmlns="Calendar:">0</ResponseRequested>
+						<AppointmentReplyTime xmlns="Calendar:">20110616T040000Z</AppointmentReplyTime>
+						<ResponseType xmlns="Calendar:">2</ResponseType>
+					</ApplicationData>
+				</Add>
+			</Commands>
+		</Collection>
+	</Collections>
+</Sync>
