@@ -2,6 +2,8 @@ package com.meghaditya.aslogreader;
 
 import java.io.IOException;
 
+import com.meghaditya.kvreader.XmlCleaner;
+
 public class Main {
 
 	public static void main(String[] args) {

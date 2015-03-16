@@ -1,8 +1,10 @@
-package com.meghaditya.aslogreader;
+package com.meghaditya.kvreader;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
+
+import com.meghaditya.files.FileModifier;
 
 public class XmlCleaner extends FileModifier{
 

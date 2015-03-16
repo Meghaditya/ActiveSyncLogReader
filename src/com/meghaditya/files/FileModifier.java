@@ -1,4 +1,4 @@
-package com.meghaditya.aslogreader;
+package com.meghaditya.files;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

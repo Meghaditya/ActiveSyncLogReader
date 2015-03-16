@@ -6,13 +6,15 @@ import java.io.InputStream;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-public class CalendarMain {
+import com.meghaditya.files.File;
 
-	public static void main(String args[]) {
+public class CalendarParser {
+
+	public static void parse() {
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		try {
 
-		    InputStream    xmlInput  = new FileInputStream("/Users/meghaditya/Documents/Personal/eclipse_luna_workspace/luna2/ActiveSyncLogReader/logs/cleanActiveSyncLogs.txt");
+		    InputStream    xmlInput  = new FileInputStream(File.getCleanXmlFileName());
 		    SAXParser      saxParser = factory.newSAXParser();
 
 		    CalendarSaxHandler handler   = new CalendarSaxHandler();

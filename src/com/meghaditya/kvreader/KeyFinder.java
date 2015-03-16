@@ -1,4 +1,4 @@
-package com.meghaditya.aslogreader;
+package com.meghaditya.kvreader;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,6 +6,8 @@ import java.io.PrintWriter;
 import java.util.LinkedHashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import com.meghaditya.files.FileModifier;
 
 public class KeyFinder extends FileModifier{
 	private static final String REGEX = "[\\w]+[\\s]+:";
