@@ -1,4 +1,4 @@
-package com.meghaditya.kvreader;
+package com.meghaditya.keyvaluereader;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,17 +10,17 @@ import java.util.regex.Pattern;
 import com.meghaditya.files.FileModifier;
 
 public class KeyFinder extends FileModifier{
-	private static final String REGEX = "[\\w]+[\\s]+:";
+	protected static final String REGEX = "[\\w]+[\\s]+:";
 	
 	public static void findKeys(String fileName) throws IOException {
 		KeyFinder kf = new KeyFinder(fileName);
 		kf.readFileContent();
 	}
 
-	private final Pattern mPattern ;
-	private LinkedHashSet<String> mUniqueKeyList;
+	protected final Pattern mPattern ;
+	protected LinkedHashSet<String> mUniqueKeyList;
 
-	private KeyFinder(String fileName) throws IOException {
+	protected KeyFinder(String fileName) throws IOException {
 		super(fileName);
 		mPattern = Pattern.compile(REGEX);
 		mUniqueKeyList = new LinkedHashSet<String>();

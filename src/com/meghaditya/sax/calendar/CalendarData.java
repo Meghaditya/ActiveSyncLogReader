@@ -1,5 +1,7 @@
 package com.meghaditya.sax.calendar;
 
+import com.meghaditya.files.File;
+
 public class CalendarData {
 	public static final String	APPLICATION_DATA = "ApplicationData";
 	public static final String	TIMEZONE = "TimeZone";
@@ -97,9 +99,6 @@ public class CalendarData {
 	}
 	
 	public void clear() {
-		int storage = mCalendarData.capacity();
-		if (storage > 0) {
-			mCalendarData.delete(0, storage);
-		}
+		mCalendarData = File.deleteData(mCalendarData);
 	}
 }

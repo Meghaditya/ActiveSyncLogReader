@@ -1,5 +1,7 @@
 package com.meghaditya.sax.calendar;
 
+import java.util.TimeZone;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
@@ -39,7 +41,8 @@ public class CalendarSaxHandler extends DefaultHandler {
 		if (CalendarData.APPLICATION_DATA.equalsIgnoreCase(qName)) {
 			mCalendarData.print();
 		} else if (CalendarData.TIMEZONE.equalsIgnoreCase(qName)) {
-			mCalendarData.addTimeZone(mCurrentBuffer.toString());
+			TimeZone tz = CalendarUtilities.easTzToTimeZoneImpl(mCurrentBuffer.toString());
+			mCalendarData.addTimeZone(tz.getDisplayName());
 		} else if (CalendarData.STARTTIME.equalsIgnoreCase(qName)) {
 			mCalendarData.addStartTime(mCurrentBuffer.toString());
 		} else if (CalendarData.ENDTIME.equalsIgnoreCase(qName)) {

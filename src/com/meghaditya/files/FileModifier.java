@@ -56,6 +56,10 @@ public abstract class FileModifier {
 		return mFileContent.toString();
 	}
 	
+	public void clearFileContent() {
+		mFileContent = File.deleteData(mFileContent);
+	}
+	
 	protected abstract void performLogic(BufferedReader br, PrintWriter pw);
 	protected abstract String getOutFileName();
 }

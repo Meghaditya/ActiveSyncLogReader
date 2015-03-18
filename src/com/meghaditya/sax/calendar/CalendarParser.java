@@ -1,27 +1,26 @@
 package com.meghaditya.sax.calendar;
 
-import java.io.FileInputStream;
+import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import com.meghaditya.files.File;
+import com.meghaditya.keyvaluereader.AbstractParser;
 
-public class CalendarParser {
+public class CalendarParser extends AbstractParser {
 
-	public static void parse() {
+	@Override
+	public void parse(String input) {
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		try {
-
-		    InputStream    xmlInput  = new FileInputStream(File.getCleanXmlFileName());
-		    SAXParser      saxParser = factory.newSAXParser();
-
-		    CalendarSaxHandler handler   = new CalendarSaxHandler();
-		    saxParser.parse(xmlInput, handler);
+			InputStream is = new ByteArrayInputStream(input.getBytes());
+			SAXParser saxParser = factory.newSAXParser();
+			CalendarSaxHandler handler = new CalendarSaxHandler();
+			saxParser.parse(is, handler);
 
 		} catch (Throwable err) {
-		    err.printStackTrace ();
+			err.printStackTrace();
 		}
 	}
 }

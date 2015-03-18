@@ -24,4 +24,12 @@ public class File {
 		return new StringBuilder().append(REPO_PATH).append("/")
 				.append(OUTPUT_FILE_NAME).toString();
 	}
+	
+	public static StringBuilder deleteData(StringBuilder fileContent) {
+		int storage = fileContent.capacity();
+		if (storage > 0) {
+			fileContent = fileContent.delete(0, storage);
+		}
+		return fileContent;
+	}
 }

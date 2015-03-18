@@ -1,21 +1,20 @@
-package com.meghaditya.kvreader;
+package com.meghaditya.files;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import com.meghaditya.files.FileModifier;
-
-public class XmlCleaner extends FileModifier{
+public class XmlFileCleaner extends FileModifier{
 
 	private final static String	REMOVE_PREFIX1 = "<Body";
 	
-	public static void cleanXml(String fileName) throws IOException {
-		XmlCleaner xc = new XmlCleaner(fileName);
+	public static String cleanXml(String fileName) throws IOException {
+		XmlFileCleaner xc = new XmlFileCleaner(fileName);
 		xc.readFileContent();
+		return xc.getFileContent();
 	}
 
-	private XmlCleaner(String fileName) throws IOException {
+	private XmlFileCleaner(String fileName) throws IOException {
 		super(fileName);
 	}
 
@@ -32,8 +31,6 @@ public class XmlCleaner extends FileModifier{
 		} catch (IOException ioEx) {
 			System.err.println("I/O Error :" + " " + ioEx.getMessage());
 		}
-		
-		pw.write(getFileContent());
 	}
 
 	@Override
